@@ -12,7 +12,7 @@
 
 <!--- แนบหลักฐานการเทส --->
 
-## Checklist:
+## Backend Checklist:
 
 <!--- ใส่ `x` ในข้อที่ทำ -->
 <!--- ถ้าไม่แน่ใจ, ให้ถาม -->
@@ -23,3 +23,13 @@
 - [ ] business logic ไม่อยู่ใน controller
 - [ ] ตรวจสอบคิวรี่ linq <> sql query แล้วคำสั่งที่แปลงมีประสิทธิภาพ 
 - [ ] มีการตรวจเช็ค query ด้วย Execution Plan
+
+## Frontend Checklist:
+
+<!--- ใส่ `x` ในข้อที่ทำ -->
+<!--- ถ้าไม่แน่ใจ, ให้ถาม -->
+ 
+- [ ] มีการตรวจสอบด้วย Google Lighthouse แล้ว performance ได้คะแนนรวมมากกว่า 80%
+- [ ] มีการรัน linting และ style ตามแนว https://airbnb.io/javascript/react/
+- [ ] เรียกทุกอย่างผ่าน https
+- [ ] มีการใช้ cache เมื่อเหมาะสม https://web.dev/web-performance-made-easy/
