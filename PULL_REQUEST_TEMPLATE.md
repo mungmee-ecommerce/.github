@@ -1,8 +1,8 @@
-## Description ( Motivation and Context ) อธิบายจุดประสงค์ & ที่มาที่ไป ในการเปิด PR เพื่อ change
+## อธิบายจุดประสงค์ & ที่มาที่ไป ในการเปิด PR ทำไมต้องแก้ Description ( Motivation and Context ) 
 
 <!--- Why is this change required? What problem does it solve? -->
 
-## How Has This Been Tested? เทสยังไงถ้า manual เทสยังไง หรือ มี Unit Test มั้ย?
+## ยกตัวอย่างวิธีเทส สั้นๆ How Has This Been Tested? 
 
 <!--- รายละเอียดวิธีเช็คและเทส -->
 <!--- environment ที่เช็ค -->
@@ -17,11 +17,8 @@
 <!--- ใส่ `x` ในข้อที่ทำ -->
 <!--- ถ้าไม่แน่ใจ, ให้ถาม -->
  
-- [ ] เขียน function ให้ทำงาน 1 อย่างจริงๆ ต่อ 1 function เพื่อที่สามารถทำ Unit Test ได้ง่าย
 - [ ] มีการเขียน Test ครอบคลุม code ที่เพิ่มเข้ามาใหม่
 - [ ] มีการรัน Unit Test แล้วผ่าน
-- [ ] business logic ไม่อยู่ใน controller
-- [ ] ตรวจสอบคิวรี่ linq <> sql query แล้วคำสั่งที่แปลงมีประสิทธิภาพ 
 - [ ] มีการตรวจเช็ค query ด้วย Execution Plan
 
 ## Frontend Checklist:
@@ -31,5 +28,3 @@
  
 - [ ] มีการตรวจสอบด้วย Google Lighthouse แล้ว performance ได้คะแนนรวมมากกว่า 80%
 - [ ] มีการรัน linting และ style ตามแนว https://airbnb.io/javascript/react/
-- [ ] เรียกทุกอย่างผ่าน https
-- [ ] มีการใช้ cache เมื่อเหมาะสม https://web.dev/web-performance-made-easy/
